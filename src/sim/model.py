@@ -18,10 +18,8 @@ class State:
     	self.grade = grade
     	self.speed = speed
 
-
-    # copy state
-    def copy(self):
-    	return State(self.speed, self.grade, self.battery)
+    def __repr__(self):
+    	return "speed:%d" % self.speed
 
 class Interval:
 	def __init__(self, es, s, endtime, dist):
@@ -33,7 +31,7 @@ class Interval:
 		self.accelTime = 0
 		self.brakeTime = 0
 	def __repr__(self):
-		return "sn:%d\tst:%d\tet:%d\td:%d" % (self.endStop, self.startTime, self.endTime,self.dist)
+		return "sn:%d\tst:%d\tet:%d\td:%d\tv:%d" % (self.endStop, self.startTime, self.endTime,self.dist,self.v)
 
 class Point:
 	def __init__(self, x, y, dist, elev):
@@ -87,30 +85,32 @@ def makeRoute(pointsFile, timesFile):
 
 		p = 0 # index of point in allpts; reading thru allpts to find matching busstop id
 		for l in lines: # last point refers to closing cycle
-			num,time = [int(x) for x in l.strip().split(',')]
+			# num,time = [int(x) for x in l.strip().split(',')]
+			numr,timer = l.strip().split(',')
+			num = int(numr)
+			time = float(timer)
+
 			intervalDistance = -allpts[p].dist
 
-			# print("%d, %d"% (allpts[p].stopNum, num))
 			# search allpts until we find the stop with matching stopnum
 			while (p < len(allpts) and allpts[p].stopNum != num):
-				# print("p:%d, p+1:%d"% (p,p+1))	
 				intervalDistance += allpts[p].dist
 				p += 1
 			
-			# print("stop to anlayz %d" % p)	
 			# ran out of points; time to link back to first stop again
 			if p == len(allpts):
 				if num != 0:
 					print ("invalid cycle closure in stoptimes")
 					break
 				else:
+					print("asdlhfasldkfj")
 					src = allpts[0]
 					newpt = Point(src.x, src.y,  src.dist,src.elev)
 					newpt.stopNum = num
-					newpt.stopTime = time - routeStartTime
+					newpt.stopTime = time* 60 - routeStartTime
 					newpt.isStop = True
 					# print("making new pt %s" %str(newpt))
-					routeTotalTime = time - routeStartTime
+					routeTotalTime = int(time*60 - routeStartTime)
 					allpts.append(newpt)
 			
 			intervalDistance += allpts[p].dist
@@ -131,12 +131,10 @@ def makeRoute(pointsFile, timesFile):
 				thisStopTime = stopTimes[-1]
 
 				interval = Interval(allpts[p].stopNum, lastStopTime, thisStopTime, intervalDistance)
-				# print ("distance:%d" % intervalDistance)
 				intervals.append(interval)
-				# print(interval)
-			# p+=1
 
 	print("=======")
+	print ("total time %d" % routeTotalTime)
 	for i in intervals:
 		print (i)
 	for p in allpts:
@@ -158,17 +156,42 @@ def velocity(route, accel, brake):
 
 		a = (-0.5)*(1/accel + 1/brake)
 		b = (iv.endTime - iv.startTime)
-		c = interval.dist
+		c = -interval.dist
+		print(a,b,c)
 
-		roots = np.roots([a,b,c])
-		print(roots)
+		print(np.roots([a,b,c]))
+		interval.v = max(np.roots([a,b,c]))
+		interval.accelTime = interval.v / accel
+		interval.brakeTime = interval.v / brake
+
+	for r in (route.intervals):
+		print("speed:%d, acceltime:%d, deceltime:%d, cruisetime:%d" % (interval.v, interval.accelTime, interval.brakeTime,
+			interval.endTime - interval.startTime - interval.accelTime - interval.brakeTime))
 
 	# for sec in range(route.routeTotalTime):
+		
+	# 	state = State(0,0,0)
+	# 	print(interval)
 	# 	if sec > interval.endTime:
 	# 		intervalid +=1
 	# 		interval = route.intervals[intervalid]
+	# 	else:
+	# 		if sec > interval.startTime and sec < interval.accelTime:
 
-	# return timeline
+	# 			print("%d: accelerating" % sec)
+	# 			velocity = (sec - interval.startTime) * accel
+	# 		elif sec > interval.startTime + interval.accelTime and sec < interval.endTime - interval.brakeTime:
+	# 			print("%d: cruising"%sec)
+	# 			velocity = interval.v
+	# 		elif sec > interval.endTime - interval.brakeTime and sec < interval.endTime:
+	# 			print("%d: decelerating"%sec)
+	# 			minusblock = interval.endTime - interval.startTime - interval.brakeTime
+	# 			decelTime = sec - interval.startTime - minusblock
+	# 			velocity = interval.v - decelTime * brake
+	# 		timeline.append(state)
+	# 		print(state)
+
+	return timeline
 
 # calculate fuel consumption at every second
 def fuelConsumed(timeline):
@@ -177,4 +200,7 @@ def fuelConsumed(timeline):
 		pass
 	return fuel
 
-velocity(makeRoute(POINTS, STOPS), 1,2)
+
+# for t in velocity(makeRoute(POINTS, STOPS), 1,2):
+# 	print (t)
+velocity(makeRoute(POINTS, STOPS), 2,2)
