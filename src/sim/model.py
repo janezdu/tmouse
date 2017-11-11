@@ -70,7 +70,7 @@ class SimpleDriver:
         self.max_dec = max_dec
 
     def run(self, path, duration):
-        '''returns a list of states, one per second, with duration+1 elements.
+        '''returns a list of external states, one per second, with duration+1 elements.
 
         path is a Path object, durration is time in seconds (int)
         stopped in first and last states

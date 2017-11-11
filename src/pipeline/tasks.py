@@ -20,3 +20,24 @@ class CreateRouteJson(luigi.Task):
         with self.output().open('w') as fp:
             importer.run(fp)
 
+
+class RunSimulator(luigi.Task):
+    route = luigi.IntParameter()
+    is_diesl = luigi.BoolParameter()
+
+    def output(self):
+        return luigi.LocalTarget('tmp/route_{}/simulator_results_{}.json'
+                .format(self.route, 'diesl' if is_diesl else 'hybrid'))
+
+    def inputs(self):
+        return {
+                'schedule': 'data/routes/route_{}/schedule.csv'.format(self.route),
+        }
+
+    def requires(self):
+        return CreateRouteJson(route=self.route)
+
+    def run(self):
+        schedule = self.inputs['schedule']
+        #TODO
+
