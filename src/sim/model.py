@@ -1,84 +1,148 @@
-
 """
 Model hybrid TCAT fuel consumption
 """
 
 import math
 import numpy as np
-
-POINTS = "../../data/example/points.csv"
-STOPS = "../../data/example/stops.csv"
-
-
-class State:
-
-	# initialize State
-    def __init__(self, speed, grade, battery):
-    	self.battery = battery
-    	self.grade = grade
-    	self.speed = speed
+import json
+import pandas
+from itertools import chain
+from functiontools import reduce
+from copy import deepcopy
 
 
-    # copy state
-    def copy(self):
-    	return State(self.speed, self.grade, self.battery)
+'''
+An internal_state object is given in the following form:
+    {
+        isDiesl: bool
+        battery: float
+        fuel_used: float
+    }
 
-class Interval:
-	def __init__(self, es, s, endtime, dist):
-		self.endStop = es
-		self.startTime = s
-		self.endTime = endtime
-		self.dist = dist
-		self.v = 0
-		self.accelTime = 0
-		self.brakeTime = 0
-	def __repr__(self):
-		return "sn:%d\tst:%d\tet:%d\td:%d" % (self.endStop, self.startTime, self.endTime,self.dist)
+An external_state object is given in the following form:
+    {
+        grade: int
+        speed: float
+        acceleration: float
+    }
+'''
 
-class Point:
-	def __init__(self, x, y, dist, elev):
-		self.x = x
-		self.y = y
-		self.dist = dist
-		self.elev = elev
-		self.isStop = False
-		self.stopNum = -1
-		self.stopTime = -1
+class Path:
+    def __init__(self, lst_points):
+        '''lst_points is the output of the path importer'''
+        self.points = lst_points
 
-	def __repr__(self):
-		return "(%d,%d)\tnum:%d\tst:%d\tdist:%d\tstoptime:%d" % ( self.x, self.y, self.stopNum, self.stopTime,self.dist,self.stopTime)
+    def distance(self, type='3d'):
+        return sum([pt[type+'_dist'] for pt in self.points])
 
-class Route:
-	def __init__(self, routeStartTime, routeTotalTime, allpts, stopTimes, intervals):
-		self.routeStartTime = routeStartTime
-		self.allpts = allpts
-		self.stopTimes = stopTimes
-		self.intervals = intervals
-		self.routeTotalTime = routeTotalTime
+    def grade_at_distance(self, target, type='3d'):
+        dist = 0
+        for i,pt in enumerate(self.points{1:]):
+            dist += pt[type+'_dist']
+            if dist >= target:
+                left_point_index = i-1
+                break
+        l_pt = self.points[left_point_index]
+        r_pt = self.points[left_point_index+1]
+        return (r_pt['elevation'] - l_pt['elevation']) / r_pt['2d_dist']
+
+    def get_intervals(self):
+        '''returns a smaller path objects for each interval'''
+        index_A = [i for i,x in enumerate(self.points) if x['stop'] == 'A'][0]
+        new_pts = self.points[index_A:] + self.points[:index_A]
+        
+        intervals = []
+        cur_interval = []
+        for pt in new_pts:
+            if pt['stop'] and cur_interval:
+                intervals.append(Path(cur_interval))
+                cur_interval = [pt]
+            else:
+                cur_interval.append(pt)
+
+        cur_interval.append(new_pts[0])
+        intervals.append(Path(cur_interval))
+        return intervals
+
+
+class SimpleDriver:
+    def __init__(self, path, duration, max_speed):
+        '''path is a Path object, durration is time in seconds (int)'''
+        self.path = path
+        self.duration = duration
+        self.max_speed = max_speed
+
+    def run(self):
+        '''returns a list of states, one per second, with duration+1 elements.
+
+        stopped in first and last states
+        '''
+        dist = self.path.distance()
+        # TODO
+
+
+class RoutePlanner:
+    '''a class for converting a router's description to a set of states'''
+    def __init__(self, path, schedule, driver):
+        self.path = path
+        self.schdule = schedule
+        self.driver = driver
+
+    def run(self):
+        intervals = self.path.get_intervals()
+        state_intervals = [
+                driver(sub_path,time)
+                for sub_path,time in zip(intervals,schedule)
+        ]
+        return chain(*state_intervals)
+
+
+class Engine:
+    def tick_time(self, interal_state, external_state):
+        #TODO
+        return new_internal_state
+
+
+class Simulator:
+    def __init__(self, path, schedule, engine):
+        self.states = states
+        self.tick_function = tick_function
+
+    def _run_sim(self, states, tick_function):
+        '''a helper function for simulating a list of states'''
+        pass
+
+    def run(self):
+        #TODO
+        return {
+                'fuel_used': 5
+        }
 
 
 # process route
 def makeRoute(pointsFile, timesFile):
+	"""each arg is a file-like object"""
 
-	allpts = [] # array of Point data structures with input data
+	allpts = json.load(pointsFile)
+	# allpts = [] # array of Point data structures with input data
 	routeStartTime = 0 # start time in seconds of route
-	stopTimes = [] # array of stop times, including 0
+	# stopTimes = [] # array of stop times, including 0
 	intervals = [] # array of intervals in which v is constant
 	routeEndTime = 0
 	# read in all normal points
-	with open(pointsFile) as f:
-		lines = f.readlines()
-		for l in lines:
-			pt = l.strip().split(',')
-			newpt = Point(
-				int(pt[0]), 
-				int(pt[1]), 
-				int(pt[2]), 
-				int(pt[3]))
-			if pt[4] != "":
-				newpt.isStop = True
-				newpt.stopNum = int(pt[4])
-			allpts.append(newpt)
+	# with open(pointsFile) as f:
+	# 	lines = f.readlines()
+	# 	for l in lines:
+	# 		pt = l.strip().split(',')
+	# 		newpt = Point(
+	# 			int(pt[0]), 
+	# 			int(pt[1]), 
+	# 			int(pt[2]), 
+	# 			int(pt[3]))
+	# 		if pt[4] != "":
+	# 			newpt.isStop = True
+	# 			newpt.stopNum = int(pt[4])
+	# 		allpts.append(newpt)
 
 
 	# read in stop times
@@ -87,33 +151,31 @@ def makeRoute(pointsFile, timesFile):
 
 		p = 0 # index of point in allpts; reading thru allpts to find matching busstop id
 		for l in lines: # last point refers to closing cycle
-			num,time = [int(x) for x in l.strip().split(',')]
+			# num,time = [int(x) for x in l.strip().split(',')]
+			numr,timer = l.strip().split(',')
+			num = int(numr)
+			time = float(timer)
+
 			intervalDistance = -allpts[p].dist
 
-			# print("%d, %d"% (allpts[p].stopNum, num))
 			# search allpts until we find the stop with matching stopnum
 			while (p < len(allpts) and allpts[p].stopNum != num):
-				# print("p:%d, p+1:%d"% (p,p+1))	
 				intervalDistance += allpts[p].dist
 				p += 1
 			
-			# print("stop to anlayz %d" % p)	
 			# ran out of points; time to link back to first stop again
 			if p == len(allpts):
 				if num != 0:
 					print ("invalid cycle closure in stoptimes")
 					break
 				else:
-					src = allpts[0]
-					newpt = Point(src.x, src.y,  src.dist,src.elev)
-					newpt.stopNum = num
-					newpt.stopTime = time - routeStartTime
-					newpt.isStop = True
-					# print("making new pt %s" %str(newpt))
-					routeTotalTime = time - routeStartTime
+					newpt = deepcopy(allpts[0])
+					newpt["stop"] = num
+					# newpt[""] = time* 60 - routeStartTime
+					routeTotalTime = int(time*60 - routeStartTime)
 					allpts.append(newpt)
 			
-			intervalDistance += allpts[p].dist
+			intervalDistance += allpts[p]["3d_dist"]
 			# print(intervalDistance)
 
 
@@ -122,7 +184,7 @@ def makeRoute(pointsFile, timesFile):
 				routeStartTime = time * 60
 
 			# time since route started
-			allpts[p].stopTime = time * 60 - routeStartTime
+			# allpts[p].stopTime = time * 60 - routeStartTime
 			stopTimes.append(allpts[p].stopTime)
 
 			# even sketchier check for non-first stop
@@ -131,12 +193,10 @@ def makeRoute(pointsFile, timesFile):
 				thisStopTime = stopTimes[-1]
 
 				interval = Interval(allpts[p].stopNum, lastStopTime, thisStopTime, intervalDistance)
-				# print ("distance:%d" % intervalDistance)
 				intervals.append(interval)
-				# print(interval)
-			# p+=1
 
 	print("=======")
+	print ("total time %d" % routeTotalTime)
 	for i in intervals:
 		print (i)
 	for p in allpts:
@@ -158,17 +218,42 @@ def velocity(route, accel, brake):
 
 		a = (-0.5)*(1/accel + 1/brake)
 		b = (iv.endTime - iv.startTime)
-		c = interval.dist
+		c = -interval.dist
+		print(a,b,c)
 
-		roots = np.roots([a,b,c])
-		print(roots)
+		print(np.roots([a,b,c]))
+		interval.v = max(np.roots([a,b,c]))
+		interval.accelTime = interval.v / accel
+		interval.brakeTime = interval.v / brake
+
+	for r in (route.intervals):
+		print("speed:%d, acceltime:%d, deceltime:%d, cruisetime:%d" % (interval.v, interval.accelTime, interval.brakeTime,
+			interval.endTime - interval.startTime - interval.accelTime - interval.brakeTime))
 
 	# for sec in range(route.routeTotalTime):
+		
+	# 	state = State(0,0,0)
+	# 	print(interval)
 	# 	if sec > interval.endTime:
 	# 		intervalid +=1
 	# 		interval = route.intervals[intervalid]
+	# 	else:
+	# 		if sec > interval.startTime and sec < interval.accelTime:
 
-	# return timeline
+	# 			print("%d: accelerating" % sec)
+	# 			velocity = (sec - interval.startTime) * accel
+	# 		elif sec > interval.startTime + interval.accelTime and sec < interval.endTime - interval.brakeTime:
+	# 			print("%d: cruising"%sec)
+	# 			velocity = interval.v
+	# 		elif sec > interval.endTime - interval.brakeTime and sec < interval.endTime:
+	# 			print("%d: decelerating"%sec)
+	# 			minusblock = interval.endTime - interval.startTime - interval.brakeTime
+	# 			decelTime = sec - interval.startTime - minusblock
+	# 			velocity = interval.v - decelTime * brake
+	# 		timeline.append(state)
+	# 		print(state)
+
+	return timeline
 
 # calculate fuel consumption at every second
 def fuelConsumed(timeline):
@@ -177,4 +262,7 @@ def fuelConsumed(timeline):
 		pass
 	return fuel
 
-velocity(makeRoute(POINTS, STOPS), 1,2)
+
+# for t in velocity(makeRoute(POINTS, STOPS), 1,2):
+# 	print (t)
+velocity(makeRoute(POINTS, STOPS), 2,2)
