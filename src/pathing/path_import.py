@@ -29,7 +29,7 @@ class PathImporter:
                 'elevation': float(pt.find('{*}ele').text),
                 '2d_dist': None,
                 '3d_dist': None,
-                'stop': []
+                'stop': None
             }
             for pt in root.findall('{*}trk/{*}trkseg/{*}trkpt')
         ]
@@ -49,7 +49,8 @@ class PathImporter:
             dist = [ (i, vincenty(Point(x['lat'],x['lon']) ,stop_pt).meters)
                     for i,x in enumerate(points)]
             index,off_by = min(dist, key=lambda x: x[1])
-            points[index]['stop'].append(letter)
+            assert points[index]['stop'] is None
+            points[index]['stop'] = letter
             # print(points[index]['stop'])
             # print(off_by)
 
