@@ -1,4 +1,3 @@
-
 """
 Model hybrid TCAT fuel consumption
 """
@@ -6,55 +5,118 @@ Model hybrid TCAT fuel consumption
 import math
 import numpy as np
 import json
+import pandas
+from itertools import chain
+from functiontools import reduce
 from copy import deepcopy
 
-POINTS = "../../data/example/points.csv"
-STOPS = "../../data/example/stops.csv"
+
+'''
+An internal_state object is given in the following form:
+    {
+        isDiesl: bool
+        battery: float
+        fuel_used: float
+    }
+
+An external_state object is given in the following form:
+    {
+        grade: int
+        speed: float
+        acceleration: float
+    }
+'''
+
+class Path:
+    def __init__(self, lst_points):
+        '''lst_points is the output of the path importer'''
+        self.points = lst_points
+
+    def distance(self, type='3d'):
+        return sum([pt[type+'_dist'] for pt in self.points])
+
+    def grade_at_distance(self, target, type='3d'):
+        dist = 0
+        for i,pt in enumerate(self.points{1:]):
+            dist += pt[type+'_dist']
+            if dist >= target:
+                left_point_index = i-1
+                break
+        l_pt = self.points[left_point_index]
+        r_pt = self.points[left_point_index+1]
+        return (r_pt['elevation'] - l_pt['elevation']) / r_pt['2d_dist']
+
+    def get_intervals(self):
+        '''returns a smaller path objects for each interval'''
+        index_A = [i for i,x in enumerate(self.points) if x['stop'] == 'A'][0]
+        new_pts = self.points[index_A:] + self.points[:index_A]
+        
+        intervals = []
+        cur_interval = []
+        for pt in new_pts:
+            if pt['stop'] and cur_interval:
+                intervals.append(Path(cur_interval))
+                cur_interval = [pt]
+            else:
+                cur_interval.append(pt)
+
+        cur_interval.append(new_pts[0])
+        intervals.append(Path(cur_interval))
+        return intervals
 
 
-class State:
+class SimpleDriver:
+    def __init__(self, path, duration, max_speed):
+        '''path is a Path object, durration is time in seconds (int)'''
+        self.path = path
+        self.duration = duration
+        self.max_speed = max_speed
 
-	# initialize State
-    def __init__(self, speed, grade, battery):
-    	self.battery = battery
-    	self.grade = grade
-    	self.speed = speed
+    def run(self):
+        '''returns a list of states, one per second, with duration+1 elements.
 
-    def __repr__(self):
-    	return "speed:%d" % self.speed
+        stopped in first and last states
+        '''
+        dist = self.path.distance()
+        # TODO
 
-class Interval:
-	def __init__(self, es, s, endtime, dist):
-		self.endStop = es
-		self.startTime = s
-		self.endTime = endtime
-		self.dist = dist
-		self.v = 0
-		self.accelTime = 0
-		self.brakeTime = 0
-	def __repr__(self):
-		return "sn:%d\tst:%d\tet:%d\td:%d\tv:%d" % (self.endStop, self.startTime, self.endTime,self.dist,self.v)
 
-# class Point:
-# 	def __init__(self, x, y, dist, elev):
-# 		self.x = x
-# 		self.y = y
-# 		self.dist = dist
-# 		self.elev = elev
-# 		self.isStop = False
-# 		self.stopNum = -1
-# 		self.stopTime = -1
+class RoutePlanner:
+    '''a class for converting a router's description to a set of states'''
+    def __init__(self, path, schedule, driver):
+        self.path = path
+        self.schdule = schedule
+        self.driver = driver
 
-# 	def __repr__(self):
-# 		return "(%d,%d)\tnum:%d\tst:%d\tdist:%d\tstoptime:%d" % ( self.x, self.y, self.stopNum, self.stopTime,self.dist,self.stopTime)
+    def run(self):
+        intervals = self.path.get_intervals()
+        state_intervals = [
+                driver(sub_path,time)
+                for sub_path,time in zip(intervals,schedule)
+        ]
+        return chain(*state_intervals)
 
-class Route:
-	def __init__(self, routeStartTime, routeTotalTime, allpts, stopTimes, intervals):
-		self.routeStartTime = routeStartTime
-		self.allpts = allpts
-		self.stopTimes = stopTimes
-		self.intervals = intervals
-		self.routeTotalTime = routeTotalTime
+
+class Engine:
+    def tick_time(self, interal_state, external_state):
+        #TODO
+        return new_internal_state
+
+
+class Simulator:
+    def __init__(self, path, schedule, engine):
+        self.states = states
+        self.tick_function = tick_function
+
+    def _run_sim(self, states, tick_function):
+        '''a helper function for simulating a list of states'''
+        pass
+
+    def run(self):
+        #TODO
+        return {
+                'fuel_used': 5
+        }
 
 
 # process route
