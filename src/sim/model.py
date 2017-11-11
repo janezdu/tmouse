@@ -31,7 +31,7 @@ class Interval:
 		self.accelTime = 0
 		self.brakeTime = 0
 	def __repr__(self):
-		return "sn:%d\tst:%d\te:%d\td:%d" % (self.endStop, self.startTime, self.startTime + self.deltaTime,self.dist)
+		return "sn:%d\tst:%d\tet:%d\td:%d" % (self.endStop, self.startTime, self.startTime + self.deltaTime,self.dist)
 
 class Point:
 	def __init__(self, x, y, dist, elev):
@@ -44,14 +44,15 @@ class Point:
 		self.stopTime = -1
 
 	def __repr__(self):
-		return "(%d,%d)\tnum:%d\tst:%d\tdist:%d" % ( self.x, self.y, self.stopNum, self.stopTime,self.dist)
+		return "(%d,%d)\tnum:%d\tst:%d\tdist:%d\tstoptime:%d" % ( self.x, self.y, self.stopNum, self.stopTime,self.dist,self.stopTime)
 
 class Route:
-	def __init__(self, routeStartTime, allpts, stopTimes, intervals):
+	def __init__(self, routeStartTime, routeTotalTime, allpts, stopTimes, intervals):
 		self.routeStartTime = routeStartTime
 		self.allpts = allpts
 		self.stopTimes = stopTimes
 		self.intervals = intervals
+		self.routeTotalTime = routeTotalTime
 
 
 # process route
@@ -61,7 +62,7 @@ def makeRoute(pointsFile, timesFile):
 	routeStartTime = 0 # start time in seconds of route
 	stopTimes = [] # array of stop times, including 0
 	intervals = [] # array of intervals in which v is constant
-	
+	routeEndTime = 0
 	# read in all normal points
 	with open(pointsFile) as f:
 		lines = f.readlines()
@@ -78,42 +79,44 @@ def makeRoute(pointsFile, timesFile):
 			allpts.append(newpt)
 
 
-	for x in allpts:
-		print(x)
-	print("=======")
 	# read in stop times
 	with open(timesFile) as f:
 		lines = f.readlines()
 
-		p = 1 # index of point in allpts; reading thru allpts to find matching busstop id
+		p = 0 # index of point in allpts; reading thru allpts to find matching busstop id
 		for l in lines: # last point refers to closing cycle
 			num,time = [int(x) for x in l.strip().split(',')]
-			intervalDistance = 0
+			intervalDistance = -allpts[p].dist
 
+			# print("%d, %d"% (allpts[p].stopNum, num))
 			# search allpts until we find the stop with matching stopnum
-			while (p < len(allpts) and allpts[p].stopNum !=num):
+			while (p < len(allpts) and allpts[p].stopNum != num):
 				# print("p:%d, p+1:%d"% (p,p+1))	
-				print(allpts[p])
 				intervalDistance += allpts[p].dist
 				p += 1
 			
+			# print("stop to anlayz %d" % p)	
 			# ran out of points; time to link back to first stop again
 			if p == len(allpts):
-				print(p)
 				if num != 0:
 					print ("invalid cycle closure in stoptimes")
 					break
 				else:
 					src = allpts[0]
-					newpt = Point(src.x, src.y, src.elev, src.dist)
+					newpt = Point(src.x, src.y,  src.dist,src.elev)
 					newpt.stopNum = num
-					newpt.stopTime = time
+					newpt.stopTime = time - routeStartTime
 					newpt.isStop = True
-					print("making new pt")
+					# print("making new pt %s" %str(newpt))
+					routeTotalTime = time - routeStartTime
 					allpts.append(newpt)
-		
+			
+			intervalDistance += allpts[p].dist
+			# print(intervalDistance)
+
+
 			# sketchy check for first stop
-			if num == 0:
+			if p == 0:
 				routeStartTime = time * 60
 
 			# time since route started
@@ -124,16 +127,20 @@ def makeRoute(pointsFile, timesFile):
 			if len(stopTimes) > 1:
 				lastStopTime = stopTimes[-2]
 				betweenStops = stopTimes[-1] - stopTimes[-2]
+
 				interval = Interval(allpts[p].stopNum, lastStopTime, betweenStops, intervalDistance)
 				# print ("distance:%d" % intervalDistance)
 				intervals.append(interval)
-				print(interval)
+				# print(interval)
+			# p+=1
 
 	print("=======")
 	for i in intervals:
 		print (i)
 	for p in allpts:
 		print(p)
+	print("=======")
+
 	return Route(routeStartTime, allpts, stopTimes, intervals)
 
 
@@ -141,8 +148,10 @@ def makeRoute(pointsFile, timesFile):
 def velocity(route, accel, brake):
 	timeline = []
 
+
 	route = makeRoute(POINTS, STOPS)
 
+	totaltime = 
 
 	# quadratic stuff
 	a = (-0.5 / accel / brake)
