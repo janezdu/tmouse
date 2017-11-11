@@ -5,6 +5,8 @@ Model hybrid TCAT fuel consumption
 
 import math
 import numpy as np
+import json
+from copy import deepcopy
 
 POINTS = "../../data/example/points.csv"
 STOPS = "../../data/example/stops.csv"
@@ -33,18 +35,18 @@ class Interval:
 	def __repr__(self):
 		return "sn:%d\tst:%d\tet:%d\td:%d\tv:%d" % (self.endStop, self.startTime, self.endTime,self.dist,self.v)
 
-class Point:
-	def __init__(self, x, y, dist, elev):
-		self.x = x
-		self.y = y
-		self.dist = dist
-		self.elev = elev
-		self.isStop = False
-		self.stopNum = -1
-		self.stopTime = -1
+# class Point:
+# 	def __init__(self, x, y, dist, elev):
+# 		self.x = x
+# 		self.y = y
+# 		self.dist = dist
+# 		self.elev = elev
+# 		self.isStop = False
+# 		self.stopNum = -1
+# 		self.stopTime = -1
 
-	def __repr__(self):
-		return "(%d,%d)\tnum:%d\tst:%d\tdist:%d\tstoptime:%d" % ( self.x, self.y, self.stopNum, self.stopTime,self.dist,self.stopTime)
+# 	def __repr__(self):
+# 		return "(%d,%d)\tnum:%d\tst:%d\tdist:%d\tstoptime:%d" % ( self.x, self.y, self.stopNum, self.stopTime,self.dist,self.stopTime)
 
 class Route:
 	def __init__(self, routeStartTime, routeTotalTime, allpts, stopTimes, intervals):
@@ -57,26 +59,28 @@ class Route:
 
 # process route
 def makeRoute(pointsFile, timesFile):
+	"""each arg is a file-like object"""
 
-	allpts = [] # array of Point data structures with input data
+	allpts = json.load(pointsFile)
+	# allpts = [] # array of Point data structures with input data
 	routeStartTime = 0 # start time in seconds of route
-	stopTimes = [] # array of stop times, including 0
+	# stopTimes = [] # array of stop times, including 0
 	intervals = [] # array of intervals in which v is constant
 	routeEndTime = 0
 	# read in all normal points
-	with open(pointsFile) as f:
-		lines = f.readlines()
-		for l in lines:
-			pt = l.strip().split(',')
-			newpt = Point(
-				int(pt[0]), 
-				int(pt[1]), 
-				int(pt[2]), 
-				int(pt[3]))
-			if pt[4] != "":
-				newpt.isStop = True
-				newpt.stopNum = int(pt[4])
-			allpts.append(newpt)
+	# with open(pointsFile) as f:
+	# 	lines = f.readlines()
+	# 	for l in lines:
+	# 		pt = l.strip().split(',')
+	# 		newpt = Point(
+	# 			int(pt[0]), 
+	# 			int(pt[1]), 
+	# 			int(pt[2]), 
+	# 			int(pt[3]))
+	# 		if pt[4] != "":
+	# 			newpt.isStop = True
+	# 			newpt.stopNum = int(pt[4])
+	# 		allpts.append(newpt)
 
 
 	# read in stop times
@@ -103,17 +107,13 @@ def makeRoute(pointsFile, timesFile):
 					print ("invalid cycle closure in stoptimes")
 					break
 				else:
-					print("asdlhfasldkfj")
-					src = allpts[0]
-					newpt = Point(src.x, src.y,  src.dist,src.elev)
-					newpt.stopNum = num
-					newpt.stopTime = time* 60 - routeStartTime
-					newpt.isStop = True
-					# print("making new pt %s" %str(newpt))
+					newpt = deepcopy(allpts[0])
+					newpt["stop"] = num
+					# newpt[""] = time* 60 - routeStartTime
 					routeTotalTime = int(time*60 - routeStartTime)
 					allpts.append(newpt)
 			
-			intervalDistance += allpts[p].dist
+			intervalDistance += allpts[p]["3d_dist"]
 			# print(intervalDistance)
 
 
@@ -122,7 +122,7 @@ def makeRoute(pointsFile, timesFile):
 				routeStartTime = time * 60
 
 			# time since route started
-			allpts[p].stopTime = time * 60 - routeStartTime
+			# allpts[p].stopTime = time * 60 - routeStartTime
 			stopTimes.append(allpts[p].stopTime)
 
 			# even sketchier check for non-first stop
