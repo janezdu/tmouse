@@ -4,8 +4,10 @@ Model hybrid TCAT fuel consumption
 """
 
 import math
-import datetime
-import time
+import numpy as np
+
+POINTS = "../../data/example/points.csv"
+STOPS = "../../data/example/stops.csv"
 
 
 class State:
@@ -22,16 +24,16 @@ class State:
     	return State(self.speed, self.grade, self.battery)
 
 class Interval:
-	def __init__(self, es, s, dt, dist):
+	def __init__(self, es, s, endtime, dist):
 		self.endStop = es
 		self.startTime = s
-		self.deltaTime = dt
+		self.endTime = endtime
 		self.dist = dist
 		self.v = 0
 		self.accelTime = 0
 		self.brakeTime = 0
 	def __repr__(self):
-		return "sn:%d\tst:%d\tet:%d\td:%d" % (self.endStop, self.startTime, self.startTime + self.deltaTime,self.dist)
+		return "sn:%d\tst:%d\tet:%d\td:%d" % (self.endStop, self.startTime, self.endTime,self.dist)
 
 class Point:
 	def __init__(self, x, y, dist, elev):
@@ -126,9 +128,9 @@ def makeRoute(pointsFile, timesFile):
 			# even sketchier check for non-first stop
 			if len(stopTimes) > 1:
 				lastStopTime = stopTimes[-2]
-				betweenStops = stopTimes[-1] - stopTimes[-2]
+				thisStopTime = stopTimes[-1]
 
-				interval = Interval(allpts[p].stopNum, lastStopTime, betweenStops, intervalDistance)
+				interval = Interval(allpts[p].stopNum, lastStopTime, thisStopTime, intervalDistance)
 				# print ("distance:%d" % intervalDistance)
 				intervals.append(interval)
 				# print(interval)
@@ -141,22 +143,32 @@ def makeRoute(pointsFile, timesFile):
 		print(p)
 	print("=======")
 
-	return Route(routeStartTime, allpts, stopTimes, intervals)
+	return Route(routeStartTime, routeTotalTime, allpts, stopTimes, intervals)
 
 
 # caluclate velocity at every second
 def velocity(route, accel, brake):
 	timeline = []
 
+	
+	intervalid = 0
+	interval = route.intervals[intervalid]
 
-	route = makeRoute(POINTS, STOPS)
+	for iv in route.intervals:
 
-	totaltime = 
+		a = (-0.5)*(1/accel + 1/brake)
+		b = (iv.endTime - iv.startTime)
+		c = interval.dist
 
-	# quadratic stuff
-	a = (-0.5 / accel / brake)
-	# b = 
-	return timeline
+		roots = np.roots([a,b,c])
+		print(roots)
+
+	# for sec in range(route.routeTotalTime):
+	# 	if sec > interval.endTime:
+	# 		intervalid +=1
+	# 		interval = route.intervals[intervalid]
+
+	# return timeline
 
 # calculate fuel consumption at every second
 def fuelConsumed(timeline):
@@ -165,4 +177,4 @@ def fuelConsumed(timeline):
 		pass
 	return fuel
 
-route = makeRoute("points.csv", "stops.csv")
+velocity(makeRoute(POINTS, STOPS), 1,2)
