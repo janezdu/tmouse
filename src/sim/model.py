@@ -9,12 +9,13 @@ import pandas
 from itertools import chain
 from functiontools import reduce
 from copy import deepcopy
+from src import constants as c
 
 
 '''
 An internal_state object is given in the following form:
     {
-        isDiesl: bool
+        isDiesel: bool
         battery: float
         fuel_used: float
     }
@@ -98,8 +99,55 @@ class RoutePlanner:
 
 
 class Engine:
-    def tick_time(self, interal_state, external_state):
+    def tick_time(self, internal_state, external_state):
         #TODO
+        dt = 1
+
+        new_internal_state = internal_state
+
+
+        #calculate power needed
+        #time is 1 second, d = rt
+        a = external_state['acceleration']
+        dist = external_state['speed']*dt
+        theta = external_state['angle']
+        m = c.MASS
+
+        #if going uphill or flat
+        if theta >= 0:
+            F = m * c.g * np.cos(theta) + m * a
+            # integrate
+            W = F * dist
+            # power = work/time. t=1
+            power = W/dt
+        else:
+            F = -1 * m * c.g * np.cos(theta) + m * a
+            W = F * dist
+            power = W/dt
+
+        #where does that power come from or go?
+
+        #if force positive, we're using engine, either battery or diesel
+        if F > 0:
+            #use battery
+            if not(internal_state['isDiesel']) & internal_state['battery'] >= W & c.POWER_CAP_ELECTRIC >= power:
+                new_internal_state['battery'] = new_internal_state['battery'] - (1/c.ELECTRIC_ENGINE_EFFICIENCY)*W
+            #use fuel
+            else:
+                new_internal_state['fuel-used'] = new_internal_state['fuel-used'] + (1/c.DIESEL_ENGINE_EFFICIENCY)*W
+                new_internal_state['battery'] += c.BATTERY_CHARGE_FROM_DIESEL
+        else:
+            #charge battery
+            if not(internal_state['isDiesel']) & internal_state['battery'] < c.BATTERY_CAP:
+                new_internal_state['battery'] = min(new_internal_state['battery'] + c.MAX_BATTERY_CHARGE_RATE*dt,
+                                                    c.BATTERY_CAP, new_internal_state['battery'] - W)
+                #-W becasue force is negative here and want to add to battery
+
+                # if power <= c.MAX_BATTERY_CHARGE_RATE:
+                #     new_internal_state['battery'] = min(new_internal_state['battery'] + W, c.BATTERY_CAP)
+                # else:
+                #     new_internal_state['battery'] = min(new_internal_state['battery'] + c.MAX_BATTERY_CHARGE_RATE, c.BATTERY_CAP)
+
         return new_internal_state
 
 
