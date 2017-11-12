@@ -6,10 +6,13 @@
 g = 9.8
 #mass of bus in kg
 MASS = 1000
+#drag coefficient
+DRAG = 0.5
+
 DIESEL_ENGINE_EFFICIENCY = 0.5
 ELECTRIC_ENGINE_EFFICIENCY = 0.3
 #power
-POWER_CAP_ELECTRIC = 200
+POWER_CAP_ELECTRIC = 2000000000
 #power
 MAX_BATTERY_CHARGE_RATE = 100
 #battery capacity
