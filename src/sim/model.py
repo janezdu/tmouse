@@ -47,6 +47,24 @@ class Path:
         '''
         return sum([pt[type+'_dist'] for pt in self.points])
 
+    def _find_points_arount(self, target, type):
+        '''returns (a,b,left_over,dist)
+
+        where the pt `target` from the start is between the point a and b,
+        and is `left_over` away from a. a and b are `dist` apart
+        '''
+        bk_dist = 0
+        dist = 0
+        for i,pt in enumerate(self.points[1:]):
+            bk_dist = dist
+            dist += pt[type+'_dist']
+            if dist >= target:
+                left_point_index = i-1
+                break
+        l_pt = self.points[left_point_index]
+        r_pt = self.points[left_point_index+1]
+        return (l_pt, r_pt, target - bk_dist, r_pt[type+'_dist'])
+
     def grade_at_distance(self, target, type='3d'):
         '''gets the grade at a certain distance
 
@@ -55,18 +73,30 @@ class Path:
 
         type can be 3d or 2d, specifying how the target distance is measured
         '''
-        dist = 0
-        for i,pt in enumerate(self.points[1:]):
-            dist += pt[type+'_dist']
-            if dist >= target:
-                left_point_index = i-1
-                break
-        l_pt = self.points[left_point_index]
-        r_pt = self.points[left_point_index+1]
+        l_pt, r_pt, _, _ = self._find_points_arount(target, type)
         if r_pt['2d_dist']:
             return (r_pt['elevation'] - l_pt['elevation']) / r_pt['2d_dist']
         else:
             return 0
+
+    def location_at_distance(sef, target, type='3d'):
+        '''gets the lat and lon at a certain distance
+
+        target is the distance from the start of the loop to measure the
+        position at
+
+        type can be 3d or 2d, specifying how the target distance is measured
+
+        returns (lat: float, lon: float, elevation: float)
+        '''
+        # take a weightage overage of the lat and longitude
+        l_pt, r_pt, left_over, size = self._find_points_arount(target, type)
+        percent_b = left_over / size
+        percent_a = 1 - percent_b
+
+        return (l_pt['lat'] * percent_a + r_pt['lat'] * percent_b,
+                l_pt['lon'] * percent_a + r_pt['lon'] * percent_b,
+                l_pt['elevation'] * percent_a + r_pt['elevation'] * percent_b)
 
     def get_intervals(self, stations=None):
         '''returns a smaller path objects for each interval,
@@ -309,14 +339,24 @@ class Simulator:
         self.engine = engine
 
     def _run_sim(self, external_states, tick_function, start_state):
-        '''a helper function for simulating a list of states'''
+        '''a helper function for simulating a list of states
+        
+        returns a list of all states from the first to the final
+        '''
         internal_state = start_state
+        internal_state_list = [start_state]
+
         for external_state in external_states:
             internal_state = tick_function(internal_state, external_state)
-        return internal_state
+            internal_state_list.append(internal_state)
+
+        return internal_state_list
 
     def run(self, is_diesl, init_electricity=0):
-        '''runs the internal state, returns a new internal state'''
+        '''runs the internal state, returns a new internal state list
+
+        returns a list of all states from the first to the final
+        '''
         start_state = {
                 'is_diesl': is_diesl,
                 'fuel_used': 0,
