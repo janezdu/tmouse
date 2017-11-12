@@ -5,10 +5,9 @@ Model hybrid TCAT fuel consumption
 import math
 import numpy as np
 import json
-#import pandas
 from itertools import chain
 from copy import deepcopy
-import constants as c
+from . import constants as c
 
 
 """
@@ -76,7 +75,10 @@ class Path:
 
         if stations is provided then only those stations are considered
         real stations, (A) must be included
+
+        assumes this is a loop and the first point + station is coppied to the end
         '''
+        # index_A = [i for i,x in enumerate(self.points) if x['stop'] == 'A']
         index_A = [i for i,x in enumerate(self.points) if x['stop'] == 'A'][0]
         new_pts = self.points[index_A:] + self.points[:index_A]
 
@@ -95,9 +97,18 @@ class Path:
         intervals.append(Path(cur_interval))
         return intervals
 
+    def get_stations(self):
+        '''returns a list of marked stations on this path'''
+        return [pt['stop'] for pt in self.points if pt['stop']]
 
-    #@staticmethod()
-    #def from_file()
+    @staticmethod
+    def from_file(fp):
+        '''reads a json file in the format that the pathing module produces
+
+        fp is a file-like object
+        '''
+        return Path(json.load(fp))
+
 
 class Schedule:
     def __init__(self, table):
@@ -112,7 +123,7 @@ class Schedule:
 
     def get_stops(self):
         '''gets the stops on this schedule'''
-        return [x for x,_ in self.tables]
+        return [x for x,_ in self.table]
 
     def duration(self, stop):
         '''returns the time to get to stop from the previous station
@@ -127,7 +138,12 @@ class Schedule:
                 last = time
 
     def get(self, i):
-        '''gets the duration between ()i-1)-th station and i-th station'''
+        '''gets the duration between ()i-1)-th station and i-th station
+
+        0 < i <= num_of_stops
+        '''
+        assert i != 0
+        assert i < len(self.table)
         return self.duration(self.table[i][0])
 
 
@@ -193,10 +209,16 @@ class RoutePlanner:
     def __init__(self, path, schedule, driver):
         '''accepts a path, the accompaning schedule, and a driver function
 
+        the path is a Path object
+
+        the schedule is a schedule object. must be 1 larger than the path object's
+        size
+
         the driver function accepts (sub_path, time) where sub_path is a
         Path object along an interval, and time is the duration the bus has
         to get from start to end
         '''
+        assert len(schedule.get_stops()) == len(path.get_stations()) + 1
         self.path = path
         self.schedule = schedule
         self.driver = driver
@@ -293,12 +315,12 @@ class Simulator:
             internal_state = tick_function(internal_state, external_state)
         return internal_state
 
-    def run(self, is_diel, init_electricity=0):
-        '''runs the internal state'''
+    def run(self, is_diesl, init_electricity=0):
+        '''runs the internal state, returns a new internal state'''
         start_state = {
-                'is_diel': is_diel,
+                'is_diesl': is_diesl,
                 'fuel_used': 0,
-                'electricity': init_electricity,
+                'battery': init_electricity,
         }
         states = RoutePlanner(self.path, self.schedule, self.driver).run()
         return self._run_sim(states, self.engine.tick_time, start_state)

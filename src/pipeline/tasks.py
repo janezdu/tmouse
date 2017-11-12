@@ -1,4 +1,5 @@
 import luigi
+import json
 import pandas
 from src.pathing.path_import import PathImporter
 from src.sim.model import Simulator, SimpleDriver, Engine, Path, Schedule
@@ -46,5 +47,7 @@ class RunSimulator(luigi.Task):
         schedule = Schedule(schedule_csv.values.tolist())
 
         sim = Simulator(path, SimpleDriver().run, schedule, Engine())
-        sim.run(self.is_diesl)
+        results = sim.run(self.is_diesl)
 
+        with self.output().open('w') as fp:
+            json.dump(results, fp)
