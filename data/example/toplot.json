@@ -1,0 +1,226 @@
+[{
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 241,
+            "acceleration": 1,
+            "lat": 42.4408173282018,
+            "lon": -76.49687802990361,
+            "dist_on_route": 120.5
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 242,
+            "acceleration": 1,
+            "lat": 42.44082182610579,
+            "lon": -76.4968782568568,
+            "dist_on_route": 121.0
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 243,
+            "acceleration": 1,
+            "lat": 42.44082632400977,
+            "lon": -76.49687848381,
+            "dist_on_route": 121.5
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 244,
+            "acceleration": 1,
+            "lat": 42.44083082191376,
+            "lon": -76.49687871076318,
+            "dist_on_route": 122.0
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 245,
+            "acceleration": 1,
+            "lat": 42.44083531981774,
+            "lon": -76.49687893771636,
+            "dist_on_route": 122.5
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 246,
+            "acceleration": 1,
+            "lat": 42.440839817721724,
+            "lon": -76.49687916466956,
+            "dist_on_route": 123.0
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 247,
+            "acceleration": 1,
+            "lat": 42.44084431562571,
+            "lon": -76.49687939162274,
+            "dist_on_route": 123.5
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 248,
+            "acceleration": 1,
+            "lat": 42.4408488135297,
+            "lon": -76.49687961857595,
+            "dist_on_route": 124.0
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 249,
+            "acceleration": 1,
+            "lat": 42.440853311433685,
+            "lon": -76.49687984552912,
+            "dist_on_route": 124.5
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 250,
+            "acceleration": 1,
+            "lat": 42.440857809337665,
+            "lon": -76.49688007248233,
+            "dist_on_route": 125.0
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 251,
+            "acceleration": 1,
+            "lat": 42.440862307241645,
+            "lon": -76.4968802994355,
+            "dist_on_route": 125.5
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 252,
+            "acceleration": 1,
+            "lat": 42.44086680514563,
+            "lon": -76.49688052638871,
+            "dist_on_route": 126.0
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 253,
+            "acceleration": 1,
+            "lat": 42.44087130304962,
+            "lon": -76.49688075334188,
+            "dist_on_route": 126.5
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 254,
+            "acceleration": 1,
+            "lat": 42.440875800953606,
+            "lon": -76.49688098029509,
+            "dist_on_route": 127.0
+        }
+    },
+    {
+        "internal_state": {
+            "is_diesl": false,
+            "fuel_used": 822065266.298979,
+            "battery": 1140.0
+        },
+        "external_state": {
+            "grade": -0.007923162212190223,
+            "speed": 255,
+            "acceleration": 1,
+            "lat": 42.44088029885759,
+            "lon": -76.49688120724826,
+            "dist_on_route": 127.5
+        }
+    }
+]
