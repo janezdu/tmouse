@@ -1,6 +1,7 @@
 import luigi
-from pathing.path_import import PathImporter
-from sim.model import Simulator, SimpleDriver, Engine, Path
+import pandas
+from src.pathing.path_import import PathImporter
+from src.sim.model import Simulator, SimpleDriver, Engine, Path, Schedule
 
 
 class CreateRouteJson(luigi.Task):
@@ -28,7 +29,7 @@ class RunSimulator(luigi.Task):
 
     def output(self):
         return luigi.LocalTarget('tmp/route_{}/simulator_results_{}.json'
-                .format(self.route, 'diesl' if is_diesl else 'hybrid'))
+                .format(self.route, 'diesl' if self.is_diesl else 'hybrid'))
 
     def inputs(self):
         return {
@@ -41,8 +42,9 @@ class RunSimulator(luigi.Task):
     def run(self):
         with self.requires().output().open() as fp:
             path = Path.from_file(fp)
-        schdule_csv = pandas.read_csv(self.inputs['schedule'], header=0)
-        schdule = schdule.iloc[:,1].tolist()
+        schedule_csv = pandas.read_csv(self.inputs()['schedule'], header=0)
+        schedule = Schedule(schedule_csv.values.tolist())
 
-        sim = Simulator(
+        sim = Simulator(path, SimpleDriver().run, schedule, Engine())
+        sim.run(self.is_diesl)
 

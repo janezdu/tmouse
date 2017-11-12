@@ -1,5 +1,7 @@
 #This file keeps track of constants and parameters
 
+SIMPLE_DRIVER_ACCELERATION = 1
+SIMPLE_DRIVER_DECELERATION = 1
 
 #Engine constants
 #acceleration due to gravity, m/s^2
