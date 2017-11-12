@@ -11,7 +11,7 @@ from copy import deepcopy
 from src import constants as c
 
 
-'''
+"""
 An internal_state object is given in the following form:
     {
         is_diesl: bool
@@ -25,7 +25,7 @@ An external_state object is given in the following form:
         speed: float
         acceleration: float
     }
-'''
+"""
 
 class Path:
     def __init__(self, lst_points):
@@ -82,7 +82,7 @@ class SimpleDriver:
         a = -0.5
         b = duration * self.max_acc * self.max_dec
         c = dist * self.max_acc * self.max_dec
-        max_speed = (-b + math.sqrt(b**2 - 4 * a * c))/(2*a)
+        max_speed = (-b - math.sqrt(b**2 - 4 * a * c))/(2*a)
         
         # make external state for every time step
         def get_state(t):
@@ -122,8 +122,8 @@ class RoutePlanner:
     def run(self):
         intervals = self.path.get_intervals()
         state_intervals = [
-                driver(sub_path,time)
-                for sub_path,time in zip(intervals,schedule)
+                driver(sub_path,schedule[i+1] - schedule[i])
+                for i,sub_path in enumerate(intervals)
         ]
         return chain(*state_intervals)
 
@@ -183,6 +183,10 @@ class Engine:
 
 class Simulator:
     def __init__(self, path, driver, schedule, engine):
+        '''creates a new simulation ready to be run for a choice of car
+
+        schedule is a list of times at which A,B,C,etc stations are reached
+        '''
         self.path = path
         self.driver = driver
         self.schedule = schedule

@@ -1,5 +1,6 @@
 import luigi
 from src.pathing.path_import import PathImporter
+from src.sim.model import Simulator, SimpleDriver, Engine, Path
 
 
 class CreateRouteJson(luigi.Task):
@@ -38,6 +39,8 @@ class RunSimulator(luigi.Task):
         return CreateRouteJson(route=self.route)
 
     def run(self):
-        schedule = self.inputs['schedule']
-        #TODO
+        schdule_csv = pandas.read_csv(self.inputs['schedule'], header=0)
+        schdule = schdule.iloc[:,1].tolist()
+
+        sim = Simulator(
 
