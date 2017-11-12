@@ -35,16 +35,16 @@ class Path:
     def distance(self, type='3d'):
         return sum([pt[type+'_dist'] for pt in self.points])
 
-    def grade_at_distance(self, target, type='3d'):
-        dist = 0
-        for i,pt in enumerate(self.points{1:]):
-            dist += pt[type+'_dist']
-            if dist >= target:
-                left_point_index = i-1
-                break
-        l_pt = self.points[left_point_index]
-        r_pt = self.points[left_point_index+1]
-        return (r_pt['elevation'] - l_pt['elevation']) / r_pt['2d_dist']
+    # def grade_at_distance(self, target, type='3d'):
+    #     dist = 0
+    #     for i,pt in enumerate(self.points{1:]):
+    #         dist += pt[type+'_dist']
+    #         if dist >= target:
+    #             left_point_index = i-1
+    #             break
+    #     l_pt = self.points[left_point_index]
+    #     r_pt = self.points[left_point_index+1]
+    #     return (r_pt['elevation'] - l_pt['elevation']) / r_pt['2d_dist']
 
     def get_intervals(self):
         '''returns a smaller path objects for each interval'''
@@ -130,7 +130,6 @@ class RoutePlanner:
 
 class Engine:
     def tick_time(self, internal_state, external_state):
-        #TODO
         dt = 1
 
         new_internal_state = internal_state
@@ -140,7 +139,8 @@ class Engine:
         #time is 1 second, d = rt
         a = external_state['acceleration']
         dist = external_state['speed']*dt
-        theta = external_state['angle']
+        grade = external_state['grade']
+        theta = np.arctan(grade)
         m = c.MASS
 
         #if going uphill or flat
@@ -197,10 +197,10 @@ class Simulator:
 
     def run(self, is_diel, init_electricity=0):
         start_state = {
-                'is_diel': is_diel,
+                'is_diesl': is_diel,
                 'fuel_used': 0,
-                'electricity': init_electricity,
+                'battery': init_electricity,
         }
         states = RoutePlanner(self.path, self.schedule, self.driver).run()
-        return self._run_sim(states, engine.tick_time, start_state)
+        return self._run_sim(states, Engine.tick_time, start_state)
 
