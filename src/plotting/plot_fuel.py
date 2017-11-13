@@ -35,20 +35,18 @@ def lineGraph(data, val, routenum, engtype):
     # plt.show()
 
 
-routenums = ['10']
-engines = ['hybrid, diesl']
-num = '10'
-eng = 'hybrid'
+routenums = ['10', '11', '15','82']
+engines = ['hybrid', 'diesl']
 
+for num in routenums:
+    for eng in engines:
+        with open('tmp/route_%s/simulator_results_external_%s.json'%(num, eng)) as fo:
+            data = json.load(fo)
+            lineGraph(data, 'acceleration', num, eng)
+            areaGraph(data, 'grade', num, eng)
+            lineGraph(data, 'speed', num, eng)
 
-
-with open('tmp/route_%s/simulator_results_external_%s.json'%(num, eng)) as fo:
-    data = json.load(fo)
-    lineGraph(data, 'acceleration', num, eng)
-    areaGraph(data, 'grade', num, eng)
-    lineGraph(data, 'speed', num, eng)
-
-with open('tmp/route_%s/simulator_results_internal_%s.json'%(num, eng)) as fo:
-    data = json.load(fo)
-    incrementalFuel(data, num, eng)
-    areaGraph(data, 'battery', num, eng)
+        with open('tmp/route_%s/simulator_results_internal_%s.json'%(num, eng)) as fo:
+            data = json.load(fo)
+            incrementalFuel(data, num, eng)
+            areaGraph(data, 'battery', num, eng)
