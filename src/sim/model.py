@@ -264,7 +264,7 @@ class RoutePlanner:
                 self.driver(sub_path, self.schedule.get(i+1))
                 for i,sub_path in enumerate(intervals)
         ]
-        return state_intervals
+        return chain(*state_intervals)
 
 
 class Engine:
@@ -306,7 +306,7 @@ class Engine:
             #use fuel
             else:
                 new_internal_state['fuel_used'] = new_internal_state['fuel_used'] + (1/c.DIESEL_ENGINE_EFFICIENCY)*W
-                if not internal_state['is_diesl']:
+                if not internal_state['is_diesl'] and c.BATTERY_CAP > internal_state['battery']:
                     new_internal_state['battery'] += c.BATTERY_CHARGE_FROM_DIESEL
         else:
             #charge battery
@@ -337,7 +337,8 @@ class Simulator:
         internal_state_list = [start_state]
 
         for external_state in external_states:
-            internal_state_list.append(internal_state)
+            internal_state_list.append(deepcopy(internal_state))
+            # print(internal_state)
             internal_state = tick_function(internal_state, external_state)
 
         return internal_state_list
@@ -353,13 +354,15 @@ class Simulator:
         }
         states = RoutePlanner(self.path, self.schedule, self.driver).run()
         
-        internal_state_list = self._run_sim(chain(*states), self.engine.tick_time, start_state)
+        external_states = list(states)
+
+        internal_state_list = self._run_sim(iter(external_states), self.engine.tick_time, start_state)
         # print("===")
         # print(internal_state_list)
         # print("===")
         return {
-            "internal_states": internal_state_list,
-            "external_states": list(states)
+            "internal_states": internal_state_list[1:],
+            "external_states": external_states
         }
         # return self._run_sim(states, self.engine.tick_time, start_state)
 

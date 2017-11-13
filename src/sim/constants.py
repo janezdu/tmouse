@@ -1,6 +1,6 @@
 #This file keeps track of constants and parameters
-SIMPLE_DRIVER_ACCELERATION = 2.0
-SIMPLE_DRIVER_DECELERATION = 2.0
+SIMPLE_DRIVER_ACCELERATION = 0.42
+SIMPLE_DRIVER_DECELERATION = 0.42
 
 #Engine constants
 #acceleration due to gravity, m/s^2
