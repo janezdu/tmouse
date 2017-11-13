@@ -7,7 +7,7 @@ import numpy as np
 import json
 from itertools import chain
 from copy import deepcopy
-import constants as c
+from src.sim import constants as c
 import numpy as np
 
 
@@ -283,7 +283,6 @@ class Engine:
 
         new_internal_state = internal_state
 
-
         #calculate power needed
         #time is 1 second, d = rt
         a = external_state['acceleration']
@@ -299,14 +298,6 @@ class Engine:
         # power = work/time. t=1
         power = W/dt
 
-        #print("Speed is: " , external_state['speed'])
-        #print("Force of engine is: ", F)
-        #print("Power of engine is: ", power)
-
-        #print(power)
-
-        #where does that power come from or go?
-
         #if force positive, we're using engine, either battery or diesel
         if F > 0:
             #use battery
@@ -315,20 +306,14 @@ class Engine:
             #use fuel
             else:
                 new_internal_state['fuel_used'] = new_internal_state['fuel_used'] + (1/c.DIESEL_ENGINE_EFFICIENCY)*W
-                if not internal_state['is_diesl']:
+                if not internal_state['is_diesl'] and c.BATTERY_CAP > internal_state['battery']:
                     new_internal_state['battery'] += c.BATTERY_CHARGE_FROM_DIESEL
         else:
             #charge battery
             if not internal_state['is_diesl'] and (internal_state['battery'] < c.BATTERY_CAP):
                 new_internal_state['battery'] = min(new_internal_state['battery'] + c.MAX_BATTERY_CHARGE_RATE*dt,
                                                     c.BATTERY_CAP, new_internal_state['battery'] - W)
-                #-W becasue force is negative here and want to add to battery
 
-                # if power <= c.MAX_BATTERY_CHARGE_RATE:
-                #     new_internal_state['battery'] = min(new_internal_state['battery'] + W, c.BATTERY_CAP)
-                # else:
-                #     new_internal_state['battery'] = min(new_internal_state['battery'] + c.MAX_BATTERY_CHARGE_RATE, c.BATTERY_CAP)
-        print(new_internal_state)
         return new_internal_state
 
 
@@ -352,8 +337,9 @@ class Simulator:
         internal_state_list = [start_state]
 
         for external_state in external_states:
+            internal_state_list.append(deepcopy(internal_state))
+            # print(internal_state)
             internal_state = tick_function(internal_state, external_state)
-            internal_state_list.append(internal_state)
 
         return internal_state_list
 
@@ -367,5 +353,16 @@ class Simulator:
                 'battery': init_electricity,
         }
         states = RoutePlanner(self.path, self.schedule, self.driver).run()
-        return self._run_sim(states, self.engine.tick_time, start_state)
+        
+        external_states = list(states)
+
+        internal_state_list = self._run_sim(iter(external_states), self.engine.tick_time, start_state)
+        # print("===")
+        # print(internal_state_list)
+        # print("===")
+        return {
+            "internal_states": internal_state_list[1:],
+            "external_states": external_states
+        }
+        # return self._run_sim(states, self.engine.tick_time, start_state)
 

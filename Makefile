@@ -6,3 +6,7 @@ local :
 	rm -r tmp
 	PYTHONPATH="." luigi --local-scheduler --module "src.pipeline.tasks" RunSimulator --route 10 --is-diesl
 	PYTHONPATH="." luigi --local-scheduler --module "src.pipeline.tasks" RunSimulator --route 10
+clean:
+    rm -rf ./tmp
+remake: 
+	clean default
