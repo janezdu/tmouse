@@ -33,7 +33,7 @@ class RunSimulator(luigi.Task):
                 .format(self.route, 'diesl' if self.is_diesl else 'hybrid'))
 
     def outputExternal(self):
-        return luigi.LocalTarget('tmp/route_{}/simulator_results_extermal_{}.json'
+        return luigi.LocalTarget('tmp/route_{}/simulator_results_external_{}.json'
                 .format(self.route, 'diesl' if self.is_diesl else 'hybrid'))
 
     def inputs(self):
