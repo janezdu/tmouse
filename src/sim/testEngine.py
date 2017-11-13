@@ -4,10 +4,10 @@ engine = m.Engine()
 internal_state = {
                 'is_diesl': False,
                 'fuel_used': 0,
-                'battery': 10,
+                'battery': 100000000000000,
         }
 external_state = {
-                'grade': -30,
+                'grade': 1,
                 'speed': 30,
                 'acceleration': 0,
         }

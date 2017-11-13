@@ -7,7 +7,8 @@ import numpy as np
 import json
 from itertools import chain
 from copy import deepcopy
-from . import constants as c
+import constants as c
+import numpy as np
 
 
 """
@@ -56,6 +57,7 @@ class Path:
         type can be 3d or 2d, specifying how the target distance is measured
         '''
         dist = 0
+        left_point_index = len(self.points)-2
         for i,pt in enumerate(self.points[1:]):
             dist += pt[type+'_dist']
             if dist >= target:
@@ -133,7 +135,7 @@ class Schedule:
         last = None
         for label,time in self.table:
             if label == stop:
-                return time - last
+                return 60*(time - last)
             else:
                 last = time
 
@@ -167,11 +169,13 @@ class SimpleDriver:
         '''
         dist = path.distance()
 
-        # solving a quadratic, ignore lesser value
+
+        # solving a quadratic, ignore larger value
         a = -0.5
-        b = duration * self.max_acc * self.max_dec
-        c = dist * self.max_acc * self.max_dec
-        max_speed = (-b - math.sqrt(b**2 - 4 * a * c))/(2*a)
+        b = duration / ((1/self.max_acc) + (1/self.max_dec))
+        c = - dist / ((1/self.max_acc) + (1/self.max_dec))
+        max_speed = (-b + math.sqrt(b**2 - 4 * a * c))/(2*a)
+
 
         # make external state for every time step
         def get_state(t):
@@ -197,7 +201,6 @@ class SimpleDriver:
                     'speed': speed,
                     'acceleration': acc
             }
-
         return [get_state(t) for t in range(duration+1)]
 
 
@@ -226,6 +229,7 @@ class RoutePlanner:
     def run(self):
         ''''''
         intervals = self.path.get_intervals()
+        #print(len(intervals))
         state_intervals = [
                 self.driver(sub_path, self.schedule.get(i+1))
                 for i,sub_path in enumerate(intervals)
@@ -245,7 +249,6 @@ class Engine:
 
         returns a new internal state
         '''
-        #TODO
         dt = 1
 
         new_internal_state = internal_state
@@ -267,7 +270,11 @@ class Engine:
         # power = work/time. t=1
         power = W/dt
 
-        print(power)
+        #print("Speed is: " , external_state['speed'])
+        #print("Force of engine is: ", F)
+        print("Power of engine is: ", power)
+
+        #print(power)
 
         #where does that power come from or go?
 
@@ -275,7 +282,6 @@ class Engine:
         if F > 0:
             #use battery
             if not internal_state['is_diesl'] and (internal_state['battery'] >= W) and (c.POWER_CAP_ELECTRIC >= power):
-                print('here')
                 new_internal_state['battery'] = new_internal_state['battery'] - (1/c.ELECTRIC_ENGINE_EFFICIENCY)*W
             #use fuel
             else:
@@ -293,7 +299,7 @@ class Engine:
                 #     new_internal_state['battery'] = min(new_internal_state['battery'] + W, c.BATTERY_CAP)
                 # else:
                 #     new_internal_state['battery'] = min(new_internal_state['battery'] + c.MAX_BATTERY_CHARGE_RATE, c.BATTERY_CAP)
-
+        #print(new_internal_state)
         return new_internal_state
 
 
@@ -315,7 +321,7 @@ class Simulator:
             internal_state = tick_function(internal_state, external_state)
         return internal_state
 
-    def run(self, is_diesl, init_electricity=0):
+    def run(self, is_diesl, init_electricity=100000000000000000):
         '''runs the internal state, returns a new internal state'''
         start_state = {
                 'is_diesl': is_diesl,
