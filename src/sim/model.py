@@ -204,7 +204,7 @@ class SimpleDriver:
         a = -0.5
         b = duration / ((1/self.max_acc) + (1/self.max_dec))
         c = - dist / ((1/self.max_acc) + (1/self.max_dec))
-        max_speed = (-b + math.sqrt(b**2 - 4 * a * c))/(2*a)
+        max_speed = (-b + math.sqrt(max(0,b**2 - 4 * a * c)))/(2*a)
 
 
         # make external state for every time step

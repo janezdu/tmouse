@@ -62,6 +62,6 @@ class RunSimulator(luigi.Task):
 
 class AllReports(luigi.WrapperTask):
     def requires(self):
-        for route in [10]:
+        for route in [10,11,15,81,82]:
             yield RunSimulator(route=route, is_diesl=True)
             yield RunSimulator(route=route, is_diesl=False)

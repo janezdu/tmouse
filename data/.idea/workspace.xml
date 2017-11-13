@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd98053c-0531-4532-8fca-8396cb05e822" name="Default" comment="" />
+    <list default="true" id="dd98053c-0531-4532-8fca-8396cb05e822" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/acceleration_10_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/acceleration_11_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/acceleration_11_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/acceleration_15_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/acceleration_15_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/acceleration_82_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/acceleration_82_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/battery_10_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/battery_11_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/battery_11_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/battery_15_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/battery_15_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/battery_82_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/battery_82_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/grade_10_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/grade_11_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/grade_11_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/grade_15_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/grade_15_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/grade_82_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/grade_82_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/incr_fuel_10_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/incr_fuel_11_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/incr_fuel_11_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/incr_fuel_15_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/incr_fuel_15_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/incr_fuel_82_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/incr_fuel_82_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/speed_10_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/speed_11_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/speed_11_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/speed_15_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/speed_15_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/speed_82_diesl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../results/speed_82_hybrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Makefile" afterPath="$PROJECT_DIR$/../Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/route_11/stops.csv" afterPath="$PROJECT_DIR$/routes/route_11/stops.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/route_15/schedule.csv" afterPath="$PROJECT_DIR$/routes/route_15/schedule.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/route_15/stops.csv" afterPath="$PROJECT_DIR$/routes/route_15/stops.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/route_82/stops.csv" afterPath="$PROJECT_DIR$/routes/route_82/stops.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/pathing/path_import.py" afterPath="$PROJECT_DIR$/../src/pathing/path_import.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/pipeline/tasks.py" afterPath="$PROJECT_DIR$/../src/pipeline/tasks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/plotting/plot_fuel.py" afterPath="$PROJECT_DIR$/../src/plotting/plot_fuel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/sim/model.py" afterPath="$PROJECT_DIR$/../src/sim/model.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/routes/route_17/stops.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -26,7 +73,27 @@
         <entry file="file://$PROJECT_DIR$/routes/route_17/schedule.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stops.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/route_11/stops.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/route_11/schedule.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/routes/route_17/route_17.gpx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+              <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -51,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -60,11 +130,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="750" />
+    <option name="x" value="288" />
     <option name="y" value="23" />
     <option name="width" value="1117" />
     <option name="height" value="668" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -93,6 +164,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="route_17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="route_11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,14 +320,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="750" y="23" width="1117" height="668" extended-state="0" />
-    <editor active="true" />
+    <frame x="288" y="23" width="1117" height="668" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5032558" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.4967442" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -247,7 +353,23 @@
     <entry file="file://$PROJECT_DIR$/routes/route_17/route_17.gpx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/route_11/stops.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/route_11/schedule.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -255,7 +377,7 @@
     <entry file="file://$PROJECT_DIR$/routes/route_17/stops.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -263,7 +385,7 @@
     <entry file="file://$PROJECT_DIR$/routes/route_17/schedule.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
