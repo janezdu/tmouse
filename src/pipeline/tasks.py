@@ -53,4 +53,10 @@ class RunSimulator(luigi.Task):
         print("asdf")
 
         with self.output().open('w') as fp:
-            json.dump(results, fp)
+            json.dump(results, fp, indent=4)
+
+class AllReports(luigi.WrapperTask):
+    def requires(self):
+        for route in [10]:
+            yield RunSimulator(route=route, is_diesl=True)
+            yield RunSimulator(route=route, is_diesl=False)
