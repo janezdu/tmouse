@@ -8,8 +8,13 @@ SIMPLE_DRIVER_DECELERATION = 2.0
 g = 9.8
 #mass of bus in kg
 MASS = 1000
+#drag parameters
+#density of air
+ro = 1.225
+#cross section area of bus
+A = 9
 #drag coefficient
-DRAG = 0.5
+Cd = 0.2
 
 DIESEL_ENGINE_EFFICIENCY = 0.5
 ELECTRIC_ENGINE_EFFICIENCY = 0.3
@@ -21,3 +26,5 @@ MAX_BATTERY_CHARGE_RATE = 100
 BATTERY_CAP = 1000
 #battery charging when using diesel
 BATTERY_CHARGE_FROM_DIESEL = 1
+
+

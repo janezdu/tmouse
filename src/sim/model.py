@@ -287,14 +287,13 @@ class Engine:
         #calculate power needed
         #time is 1 second, d = rt
         a = external_state['acceleration']
-        dist = external_state['speed']*dt
+        v = external_state['speed']
+        dist = v*dt
         grade = external_state['grade']
         theta = np.arctan(grade)
         m = c.MASS
 
-        #if going uphill or flat
-
-        F = m * c.g * np.sin(theta) + m * a
+        F = m * c.g * np.sin(theta) + (0.5*c.ro*v**2*c.Cd*c.A) + m * a
         # integrate
         W = F * dist
         # power = work/time. t=1
