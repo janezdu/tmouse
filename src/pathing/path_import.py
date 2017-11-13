@@ -51,8 +51,6 @@ class PathImporter:
             index,off_by = min(dist, key=lambda x: x[1])
             assert points[index]['stop'] is None
             points[index]['stop'] = letter
-            # print(points[index]['stop'])
-            # print(off_by)
 
         # write json
         json.dump(points, output_file, indent=4)

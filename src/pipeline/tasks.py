@@ -28,8 +28,12 @@ class RunSimulator(luigi.Task):
     route = luigi.IntParameter()
     is_diesl = luigi.BoolParameter()
 
-    def output(self):
-        return luigi.LocalTarget('tmp/route_{}/simulator_results_{}.json'
+    def outputInternal(self):
+        return luigi.LocalTarget('tmp/route_{}/simulator_results_internal_{}.json'
+                .format(self.route, 'diesl' if self.is_diesl else 'hybrid'))
+
+    def outputExternal(self):
+        return luigi.LocalTarget('tmp/route_{}/simulator_results_extermal_{}.json'
                 .format(self.route, 'diesl' if self.is_diesl else 'hybrid'))
 
     def inputs(self):
@@ -41,19 +45,20 @@ class RunSimulator(luigi.Task):
         return CreateRouteJson(route=self.route)
 
     def run(self):
-        print("abc")
         with self.requires().output().open() as fp:
             path = Path.from_file(fp)
         schedule_csv = pandas.read_csv(self.inputs()['schedule'], header=0)
         schedule = Schedule(schedule_csv.values.tolist())
 
         sim = Simulator(path, SimpleDriver().run, schedule, Engine())
-        print("I'm here!")
         results = sim.run(self.is_diesl)
-        print("asdf")
 
-        with self.output().open('w') as fp:
-            json.dump(results, fp, indent=4)
+        with self.outputInternal().open('w') as fp:
+            json.dump(results["internal_states"], fp, indent=4)
+
+        with self.outputExternal().open('w') as fp:
+            json.dump(results["external_states"], fp, indent=4)
+
 
 class AllReports(luigi.WrapperTask):
     def requires(self):

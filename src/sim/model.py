@@ -264,7 +264,7 @@ class RoutePlanner:
                 self.driver(sub_path, self.schedule.get(i+1))
                 for i,sub_path in enumerate(intervals)
         ]
-        return chain(*state_intervals)
+        return state_intervals
 
 
 class Engine:
@@ -286,24 +286,22 @@ class Engine:
         #calculate power needed
         #time is 1 second, d = rt
         a = external_state['acceleration']
-        dist = external_state['speed']*dt
+        v = external_state['speed']
+        dist = v*dt
         grade = external_state['grade']
         theta = np.arctan(grade)
         m = c.MASS
 
-        #if going uphill or flat
-
-        F = m * c.g * np.sin(theta) + m * a
+        F = m * c.g * np.sin(theta) + (0.5*c.ro*v**2*c.Cd*c.A) + m * a
         # integrate
         W = F * dist
         # power = work/time. t=1
         power = W/dt
 
-
         #if force positive, we're using engine, either battery or diesel
         if F > 0:
             #use battery
-            if not internal_state['is_diesl'] and (internal_state['battery'] >= W) and (c.POWER_CAP_ELECTRIC >= power):
+            if not internal_state['is_diesl'] and (internal_state['battery'] >= (1/c.ELECTRIC_ENGINE_EFFICIENCY)*W) and (c.POWER_CAP_ELECTRIC >= power):
                 new_internal_state['battery'] = new_internal_state['battery'] - (1/c.ELECTRIC_ENGINE_EFFICIENCY)*W
             #use fuel
             else:
@@ -315,7 +313,6 @@ class Engine:
             if not internal_state['is_diesl'] and (internal_state['battery'] < c.BATTERY_CAP):
                 new_internal_state['battery'] = min(new_internal_state['battery'] + c.MAX_BATTERY_CHARGE_RATE*dt,
                                                     c.BATTERY_CAP, new_internal_state['battery'] - W)
-
 
         return new_internal_state
 
@@ -340,11 +337,9 @@ class Simulator:
         internal_state_list = [start_state]
 
         for external_state in external_states:
-            print(internal_state)
             internal_state_list.append(internal_state)
-
             internal_state = tick_function(internal_state, external_state)
-            
+
         return internal_state_list
 
     def run(self, is_diesl, init_electricity=c.BATTERY_CAP/2):
@@ -357,5 +352,14 @@ class Simulator:
                 'battery': init_electricity,
         }
         states = RoutePlanner(self.path, self.schedule, self.driver).run()
-        return self._run_sim(states, self.engine.tick_time, start_state)
+        
+        internal_state_list = self._run_sim(chain(*states), self.engine.tick_time, start_state)
+        # print("===")
+        # print(internal_state_list)
+        # print("===")
+        return {
+            "internal_states": internal_state_list,
+            "external_states": list(states)
+        }
+        # return self._run_sim(states, self.engine.tick_time, start_state)
 
