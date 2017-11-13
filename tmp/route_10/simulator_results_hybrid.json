@@ -1,1 +1,5717 @@
-{"battery": 9.999999999282488e+16, "is_diesl": false, "fuel_used": 0}
+[
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }, 
+    {
+        "battery": 9.999999999282488e+16, 
+        "is_diesl": false, 
+        "fuel_used": 0
+    }
+]

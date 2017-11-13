@@ -358,16 +358,10 @@ class Simulator:
 
         return internal_state_list
 
-<<<<<<< HEAD
-    def run(self, is_diesl, init_electricity=100000000000000000):
-        '''runs the internal state, returns a new internal state'''
-=======
-    def run(self, is_diesl, init_electricity=0):
-        '''runs the internal state, returns a new internal state list
+    def run(self, is_diesl, init_electricity=c.BATTERY_CAP/2):
+        '''runs the internal state, returns a new internal state
+        returns a list of all states from the first to the final'''
 
-        returns a list of all states from the first to the final
-        '''
->>>>>>> b020d3b2128ca58c039a973a0b39c53ccab1e900
         start_state = {
                 'is_diesl': is_diesl,
                 'fuel_used': 0,
