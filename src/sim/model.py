@@ -301,7 +301,7 @@ class Engine:
 
         #print("Speed is: " , external_state['speed'])
         #print("Force of engine is: ", F)
-        print("Power of engine is: ", power)
+        #print("Power of engine is: ", power)
 
         #print(power)
 
@@ -310,7 +310,7 @@ class Engine:
         #if force positive, we're using engine, either battery or diesel
         if F > 0:
             #use battery
-            if not internal_state['is_diesl'] and (internal_state['battery'] >= W) and (c.POWER_CAP_ELECTRIC >= power):
+            if not internal_state['is_diesl'] and (internal_state['battery'] >= (1/c.ELECTRIC_ENGINE_EFFICIENCY)*W) and (c.POWER_CAP_ELECTRIC >= power):
                 new_internal_state['battery'] = new_internal_state['battery'] - (1/c.ELECTRIC_ENGINE_EFFICIENCY)*W
             #use fuel
             else:
@@ -328,7 +328,7 @@ class Engine:
                 #     new_internal_state['battery'] = min(new_internal_state['battery'] + W, c.BATTERY_CAP)
                 # else:
                 #     new_internal_state['battery'] = min(new_internal_state['battery'] + c.MAX_BATTERY_CHARGE_RATE, c.BATTERY_CAP)
-        #print(new_internal_state)
+        print(new_internal_state)
         return new_internal_state
 
 
