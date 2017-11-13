@@ -1,5 +1,4 @@
 #This file keeps track of constants and parameters
-
 SIMPLE_DRIVER_ACCELERATION = 2.0
 SIMPLE_DRIVER_DECELERATION = 2.0
 
