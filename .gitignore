@@ -1,3 +1,7 @@
 src/.idea
 .#*
 *.pyc
+
+
+tmp
+paper/output

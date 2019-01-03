@@ -1,4 +1,5 @@
 import luigi
+import json
 import pandas
 from src.pathing.path_import import PathImporter
 from src.sim.model import Simulator, SimpleDriver, Engine, Path, Schedule
@@ -27,8 +28,12 @@ class RunSimulator(luigi.Task):
     route = luigi.IntParameter()
     is_diesl = luigi.BoolParameter()
 
-    def output(self):
-        return luigi.LocalTarget('tmp/route_{}/simulator_results_{}.json'
+    def outputInternal(self):
+        return luigi.LocalTarget('tmp/route_{}/simulator_results_internal_{}.json'
+                .format(self.route, 'diesl' if self.is_diesl else 'hybrid'))
+
+    def outputExternal(self):
+        return luigi.LocalTarget('tmp/route_{}/simulator_results_external_{}.json'
                 .format(self.route, 'diesl' if self.is_diesl else 'hybrid'))
 
     def inputs(self):
@@ -46,5 +51,17 @@ class RunSimulator(luigi.Task):
         schedule = Schedule(schedule_csv.values.tolist())
 
         sim = Simulator(path, SimpleDriver().run, schedule, Engine())
-        sim.run(self.is_diesl)
+        results = sim.run(self.is_diesl)
 
+        with self.outputInternal().open('w') as fp:
+            json.dump(results["internal_states"], fp, indent=4)
+
+        with self.outputExternal().open('w') as fp:
+            json.dump(results["external_states"], fp, indent=4)
+
+
+class AllReports(luigi.WrapperTask):
+    def requires(self):
+        for route in [10,11,15,17,81,82]:
+            yield RunSimulator(route=route, is_diesl=True)
+            yield RunSimulator(route=route, is_diesl=False)

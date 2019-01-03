@@ -5,7 +5,7 @@ from geopy import Point
 import pandas
 import json
 from math import sqrt
-
+from pprint import pprint
 
 class PathImporter:
     def __init__(self, path_file, stops_file):
@@ -49,10 +49,17 @@ class PathImporter:
             dist = [ (i, vincenty(Point(x['lat'],x['lon']) ,stop_pt).meters)
                     for i,x in enumerate(points)]
             index,off_by = min(dist, key=lambda x: x[1])
-            assert points[index]['stop'] is None
+            
+            if not (points[index]['stop'] is None):
+                while not (points[index]['stop'] is None):
+                    index+=1
+                    if index > len(points)-1:
+                        if not looped:
+                            index = 0
+                            looped = True
+                        else:
+                            break
             points[index]['stop'] = letter
-            # print(points[index]['stop'])
-            # print(off_by)
 
         # write json
         json.dump(points, output_file, indent=4)

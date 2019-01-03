@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% writeLaTeX Example: Academic Paper Template
+%
+% Source: http://www.writelatex.com
+% 
+% Feel free to distribute this example, but please keep the referral
+% to writelatex.com
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[twocolumn,showpacs,%
+  nofootinbib,aps,superscriptaddress,%
+  eqsecnum,prd,notitlepage,showkeys,10pt]{revtex4-1}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Modelling Fuel Consumption of Hybrid and Diesel TCAT Buses}
+\author{Marlene Berke (mdb293), Tennyson Bardwell (ttb33), Jane Du (zd53)}
+\affiliation{Cornell University}
+
+\begin{abstract}
+The TCAT is the primary bus service operating in Tompkins county. Our task is to develop a strategy to make use of 8 new hybrid diesel-electric busses so as to reduce the TCAT’s fuel consumption. The goal is to compare fuel consumption of diesel-only and hybrid busses on each of 6 routes and determine for which routes using hybrid busses yields the most fuel savings. To that end, we compare the fuel consumption of the two types of busses and optimize for the maximum amount of fuel saved by switching to a hybrid bus on a route, based on our simulation constructed using reasonable parameters and restrictions. We examine the robustness of our suggestion to variation in parameter of the simulation. Using realistic values for our parameters, we conclude that allocating [2 hybrid busses to route 11, 1 to route 12, and 3 to route 17] would maximize fuel efficiency.
+
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+The TCAT’s fuel efficiency is desirable for many reasons. First, optimizing fuel use would decrease the cost of operating the TCAT. The TCAT is subsidized by taxes (citation), so reducing the cost of operation could save taxpayer money. Second, saving fuel reduces pollution. As proclaimed by many a T-shirt, “Ithaca is Gorges,” and we want to preserve that natural beauty by protecting it from pollution.
+
+Since our goal is to calculate the difference in fuel consumption between diesel-only and hybrid busses on each route, we must consider the conditions under which hybrid busses and diesel-only busses behave differently. In other words, our model must capture the conditions of battery usage in hybrid busses. Because battery usage and charging depends explicitly on terrain (diesel must power the bus on steep hills, and the battery charges when braking on downhills), and terrain differs drastically from route to route, our model must include terrain. That motivates the use of real data about the elevation changes along the TCAT routes. Battery usage also depends on planned bus stops and on driving strategy. Since battery usage depends on second-by-second braking or acceleration, a simulation approach is best suited to this problem. Simulation offers the ability to incorporate the relevant details -- real terrain data, an approximation of how humans drive, and flexibility to easily examine how parameter changes affect our conclusions. 
+
+Our simulation of diesel and hybrid busses running the routes can be described in several pieces. First, in order to model the busses’ energy use, we need information on their acceleration and deceleration. The route’s terrain determines a major part of that. For that reason, we use real data on the route’s terrain and stops. We call this the “route model.” Next, we need to model the motion of the bus, parameterized by the rate of acceleration and deceleration of the bus when driven. This is the “driver model.” Last, we must model the diesel engine and the hybrid engine’s fuel consumption, called the “engine model.” The following sections will detail the simulation piece by piece, model by model, including the assumptions and parameters of each.
+
+Finally, using our simulation, we rank the buses based on fuel saved on one round trip on a route on weekday at noon. 
+
+
+\section{Models}
+\label{sec:models}
+
+\subsection{Route Model}
+\label{sec:route}
+
+
+\subsection{Driver Model}
+\label{sec:driver}
+
+
+% Commands to include a figure:
+%\begin{figure}
+%\includegraphics[width=\textwidth]{your-figure's-file-name}
+%\caption{\label{fig:your-figure}Caption goes here.}
+%\end{figure}
+
+\subsection{Engine Model}
+\label{sec:engine}
+
+
+
+\begin{acknowledgments}
+
+We thank\dots
+
+\end{acknowledgments}
+
+\end{document}
